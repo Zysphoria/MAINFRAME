@@ -1,6 +1,10 @@
 @font-face {
-    font-family: POLYA
-    src: url(/NEW/fonts/POLYA.otf)
+    font-family: POLYA;
+    src: url(/NEW/fonts/Polya Font/POLYA.otf);
+}
+
+body{
+    font-family: POLYA;
 }
 
 nav ul {
@@ -9,10 +13,8 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    font-family: POLYA;
 }
 
 nav li {
