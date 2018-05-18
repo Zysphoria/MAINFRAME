@@ -1,10 +1,15 @@
 @font-face {
     font-family: Nordic;
-    src: url(/NEW/fonts/Nordic.rar);
+    src: url(../fonts/Nordic/NordicAlternativeRegular.ttf);
+}
+
+@font-face {
+    font-family: Polya;
+    src: url(../fonts/PolyaFont/POLYA.otf)
 }
 
 body{
-    font-family: Nordic;
+    font-family: Polya;
 }
 
 nav ul {
