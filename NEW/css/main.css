@@ -1,10 +1,10 @@
 @font-face {
-    font-family: POLYA;
-    src: url(/NEW/fonts/Polya Font/POLYA.otf);
+    font-family: Nordic;
+    src: url(/NEW/fonts/Nordic.rar);
 }
 
 body{
-    font-family: POLYA;
+    font-family: Nordic;
 }
 
 nav ul {
@@ -33,6 +33,7 @@ nav li a:hover {
     background-color: #111;
 }
 
-nav .active {
+.active {
     background-color: #4CAF50;
 }
+
