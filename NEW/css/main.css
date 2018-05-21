@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 @font-face {
     font-family: Nordic;
     src: url(../fonts/Nordic/NordicAlternativeRegular.ttf);
@@ -18,6 +22,22 @@ body{
     font-size: 25px;
 }
 
+header {
+    font-family: Polya;
+    font-size: 150px;
+    text-align: center;
+    padding: 100px;
+    border: 0px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: white;
+    background-image: url(../images/1.png);
+}
+
+main {
+    font-size: 500px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -30,6 +50,10 @@ nav ul {
 
 nav li {
     float: left;
+}
+
+nav li:last-child {
+    float: right;
 }
 
 nav li a {
@@ -45,6 +69,6 @@ nav li a:hover {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: darkred;
 }
 
