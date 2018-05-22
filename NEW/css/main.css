@@ -17,6 +17,11 @@
     src: url(../fonts/Arenq.otf);
 }
 
+@font-face {
+    font-family: Blanka;
+    src: url(../fonts/BLANKA/Blanka-Regular.otf)
+}
+
 body{
     font-family: Arenq;
     font-size: 25px;
@@ -27,7 +32,8 @@ header {
     font-size: 150px;
     text-align: center;
     padding: 100px;
-    border: 0px;
+    border: 50px;
+    border-color: black;
     padding-top: 300px;
     padding-bottom: 300px;
     color: white;
@@ -69,14 +75,15 @@ nav li a:hover {
 }
 
 main {
-    font-family: Arenq;
+    font-family: Blanka;
 }
 
 .o_head {
+    font-family: Polya;
     text-align: center;
     padding-top: 75px;
     padding-bottom: 75px;
-    font-size: 40px;
+    font-size: 100px;
 }
 
 .o_content {
