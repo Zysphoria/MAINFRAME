@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Nordic;
+    src: url(../fonts/Nordic/NordicAlternativeRegular.ttf);
+}
+
+@font-face {
+    font-family: Polya;
+    src: url(../fonts/PolyaFont/POLYA.otf);
+}
+
+@font-face {
+    font-family: Arenq;
+    src: url(../fonts/Arenq.otf);
+}
+
+@font-face {
+    font-family: Blanka;
+    src: url(../fonts/BLANKA/Blanka-Regular.otf)
+}
+
+body{
+    font-family: Arenq;
+    font-size: 25px;
+}
+
+header {
+    font-family: Polya;
+    font-size: 150px;
+    text-align: center;
+    padding: 100px;
+    border: 50px;
+    border-color: black;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: white;
+    background-image: url(../images/1.png);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151515;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li:last-child {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #c61309;
+}
+
+.active {
+    background-color: darkred;
+}
+
+main {
+    font-family: Arenq;
+    background-color: #151515;
+    color: white;
+}
+
+.o_head {
+    font-family: Polya;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 100px;
+}
+
+.o_content {
+    text-align: center;
+    font-size: 30px;
+}
+
+.o_head2 {
+    font-family: Polya;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.o_content2 {
+    text-align: center;
+    padding-bottom: 75px;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #222;
+    padding-top: 200px;
+}
+
+footer p{
+    font-size: 40px;
+    font-family: Polya;
+    color: #afafae;
+    text-align: center;
+}
