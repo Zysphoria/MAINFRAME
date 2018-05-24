@@ -23,29 +23,50 @@
 }
 
 header{
-    font-family: Blanka;
-    font-size: 100px;
+    font-family: Polya;
+    font-size: 4.7em;
     text-align: center;
     padding: 100px;
     border: 0px;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 175px;
     color: white;
-    background-image: url(../images/1.png);
+
 
 }
 div{
-    background-image: url(;
-    color:grey;
-}
-div p{
 
+    color:#ffffff;
+}
+div p {
+    padding-top: 40px;
+    font-size: 25px;
 }
 .coolKidhead{
-    font-family: Blanka;
+    font-family: Arenq;
     text-align: center;
-    color: grey;
-    padding: 350px;
-    padding-top: 30px;
+    color: #ffffff;
+    padding: 225px;
+    padding-top: 30px;.
+    padding-bottom:
+}
+h1 {
+    font-size: 50px;
+}
+footer {
+    background-color: #222;
+    padding-top: 60px;
+}
 
+footer p{
+    font-size: 40px;
+    font-family: Polya;
+    color: #afafae;
+    text-align: center;
+}
+main{
+    background-image: url(/NEW/images/tech.jpg);
+}
+.lower{
+    padding-top: 10px;
 }
