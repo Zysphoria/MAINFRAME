@@ -22,6 +22,11 @@
     src: url(../fonts/BLANKA/Blanka-Regular.otf)
 }
 
+@font-face {
+    font-family: Claudia;
+    src: url("../fonts/claudia.ttf")
+}
+
 body{
     font-family: Arenq;
     font-size: 25px;
@@ -31,11 +36,7 @@ header {
     font-family: Polya;
     font-size: 150px;
     text-align: center;
-    padding: 100px;
-    border: 50px;
-    border-color: black;
-    padding-top: 360px;
-    padding-bottom: 350px;
+    padding-top: 320px;
     color: white;
     background-image: url(../images/1.png);
 }
@@ -82,7 +83,16 @@ main {
 }
 
 .o_transport {
+    padding-top: 400px;
+    font-size: 30px;
     text-align: center;
+    font-family: Arenq;
+    color: white;
+}
+
+main a {
+    text-decoration: none;
+    color: white;
 }
 
 .o_head {
