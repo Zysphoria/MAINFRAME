@@ -34,8 +34,8 @@ header {
     padding: 100px;
     border: 50px;
     border-color: black;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 360px;
+    padding-bottom: 350px;
     color: white;
     background-image: url(../images/1.png);
 }
@@ -81,10 +81,14 @@ main {
     color: white;
 }
 
+.o_transport {
+    text-align: center;
+}
+
 .o_head {
     font-family: Polya;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 125px;
     padding-bottom: 75px;
     font-size: 100px;
 }
@@ -104,16 +108,25 @@ main {
 
 .o_content2 {
     text-align: center;
-    padding-bottom: 75px;
+    padding-bottom: 125px;
     font-size: 30px;
 }
 
 footer {
     background-color: #222;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
-footer p{
+.message {
+    padding-bottom: 100px;
+    font-size: 150px;
+    font-family: Polya;
+    color: darkred;
+    text-align: center;
+}
+
+.company{
+    padding-bottom: 50px;
     font-size: 40px;
     font-family: Polya;
     color: #afafae;
