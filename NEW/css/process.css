@@ -107,20 +107,11 @@ main a {
 .o_content {
     text-align: center;
     font-size: 30px;
+    padding-bottom: 150px;
 }
 
-.o_head2 {
-    font-family: Polya;
-    font-size: 100px;
-    text-align: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-.o_content2 {
-    text-align: center;
-    padding-bottom: 125px;
-    font-size: 30px;
+main li {
+    list-style: none;
 }
 
 footer {
