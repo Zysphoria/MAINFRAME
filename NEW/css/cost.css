@@ -119,4 +119,6 @@ footer p{
     color: #afafae;
     text-align: center;
 }
-
+caption{
+    font-weight: bolder;
+}
